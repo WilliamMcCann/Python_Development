@@ -6,8 +6,8 @@ m = (int(raw_input('Enter the first number: ')))
 
 def multiply(a,b):
 	if a > 1:
-		return (a + (multiply(a,b-1)))
-	if a == 1:
-		return 1
+		return (b + (multiply(a-1,b)))
+	else:
+		return b 
 
 print multiply(n,m)
