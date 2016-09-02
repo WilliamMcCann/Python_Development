@@ -3,12 +3,12 @@
 print "This program takes a matrix and prints the absolute difference of the sums of the matrix diagonals"
 
 n = int(raw_input("Please enter the dimensions of an NxN matrix: ").strip())
-print type(n)
-print n
+
+
 
 matrix = []
 for i in range(n):
-    print i
+
     temp = map(int, raw_input("Please enter a line from the NxN matrix: ").strip().split())
     matrix.append(temp)
 
