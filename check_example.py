@@ -1,12 +1,10 @@
 #!/bin/python
 
-a = int(raw_input("Please enter a: "))
-b = int(raw_input("Please enter b: "))
-c = int(raw_input("Please enter c: "))
+def my_add(a,b):
+	return a + b
 
-print "a + b = %i" % (a + b)
-print "b * c = %i" % (b * c)
+def my_mult(c,d):
+	return c * d
 
-d = str(type(c))
-e = d[6:-1]
-print "c is of type %s" % e
+def my_print(e):
+	print e
