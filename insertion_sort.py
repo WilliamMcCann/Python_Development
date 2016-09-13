@@ -11,6 +11,6 @@ def insertionSort(ar):
                 print x,
             print
 
-m = input()
-ar = [int(i) for i in raw_input().strip().split()]
+m = int(input("Please input the number of list items: "))
+ar = [int(i) for i in raw_input("Please input all list items: ").strip().split()]
 insertionSort(ar)
