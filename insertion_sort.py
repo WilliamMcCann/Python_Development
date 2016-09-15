@@ -14,3 +14,4 @@ def insertionSort(ar):
 m = int(input("Please input the number of list items: "))
 ar = [int(i) for i in raw_input("Please input all list items: ").strip().split()]
 insertionSort(ar)
+
