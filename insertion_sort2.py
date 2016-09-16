@@ -12,6 +12,7 @@ for i in range(len(arr)):
 		value = arr[q]
 		print("arr in inner loop = %s" % str(arr))
 		if arr[q] < arr[q - 1]:
-			arr[q] = arr[q - 1]
-			arr[q - 1] = value
+			#arr[q] = arr[q - 1]
+			#arr[q - 1] = value
+			arr[q], arr[q - 1] = arr[q - 1], arr[q]
 print(arr)
