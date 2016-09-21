@@ -4,8 +4,6 @@ def work(x,n):
         print("In work")
 	if x == 1:
 		return True
-#        elif x == 2:
- #               return True
         else:
 		if n % x == 0:
                 	return False
@@ -24,4 +22,4 @@ def prime(n):
 	else:
 		print "Not Prime"
 
-prime(int(raw_input()))
+prime(int(raw_input("Please input the number to be checked for primality: ")))
